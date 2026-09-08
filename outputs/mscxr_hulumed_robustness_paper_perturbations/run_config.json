@@ -1,0 +1,20 @@
+{
+  "model_family": "hulumed",
+  "model_path": "/data/yanjiangtao/yanjiangtao/checkpoints/Hulu-Med-7B",
+  "data_root": "/home/yanjiangtao/Med-Grounding/data/MS-CXR",
+  "split": "test",
+  "max_samples": -1,
+  "seed": 42,
+  "temperature": 0.0,
+  "max_new_tokens": 64,
+  "coordinate_mode": "qwen_1000",
+  "hulumed_max_visual_tokens": 4096,
+  "perturbations": [
+    "gaussian_noise_sigma_20",
+    "black_border_10px",
+    "white_border_10px",
+    "brightness_plus_8",
+    "contrast_plus_8",
+    "gaussian_blur_sigma_0_8"
+  ]
+}
